@@ -1,4 +1,4 @@
-class TreeNode(object):
+class BSTreeNode(object):
     def __init__(self, key, left=None, right=None, parent=None):
         self.key = key
         self.left = left

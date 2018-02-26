@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-from tree_node import TreeNode
+from binary_search_tree_node import BSTreeNode
 
 class BSTree(object):
 
@@ -8,7 +8,7 @@ class BSTree(object):
         self.root = None
 
     def insert(self, x):
-        node = TreeNode(x)
+        node = BSTreeNode(x)
         if not self.root:
             self.root = node
         else:
